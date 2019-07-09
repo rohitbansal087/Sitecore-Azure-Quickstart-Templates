@@ -1,48 +1,48 @@
-﻿{
+{
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
     "deploymentId": {
-      "value": ""
+      "value": "dev2"
     },
     "cmMsDeployPackageUrl": {
-      "value": ""
+      "value": "https://farahsitecorepackages.blob.core.windows.net/sitecore-8-2-5/Sitecore 8.2 rev. 170728_cm.scwdp.zip"
     },
     "cdMsDeployPackageUrl": {
-      "value": ""
+      "value": "https://farahsitecorepackages.blob.core.windows.net/sitecore-8-2-5/Sitecore 8.2 rev. 170728_cd.scwdp.zip"
     },
     "prcMsDeployPackageUrl": {
-      "value": ""
+      "value": "https://farahsitecorepackages.blob.core.windows.net/sitecore-8-2-5/Sitecore 8.2 rev. 170728_prc.scwdp.zip"
     },
     "repMsDeployPackageUrl": {
-      "value": ""
+      "value": "https://farahsitecorepackages.blob.core.windows.net/sitecore-8-2-5/Sitecore 8.2 rev. 170728_rep.scwdp.zip"
     },
     "sqlServerLogin": {
-      "value": ""
+      "value": "fedev2uxadmin"
     },
     "sqlServerPassword": {
-      "value": ""
+      "value": "Password-9"
     },
     "sitecoreAdminPassword": {
-      "value": ""
+      "value": "fedev2uxadmin"
     },
     "repAuthenticationApiKey": {
-      "value": ""
+      "value": "A2CE128C-839F-4AA0-9E74-2D0E8B652F7C"
     },
     "analyticsMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://testadmin:password@13.81.200.59:27017/Sitecore_analytics_admm?authSource=admin"
     },
     "trackingLiveMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://testadmin:password@13.81.200.59:27017/tracking_live_admm?authSource=admin"
     },
     "trackingHistoryMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://testadmin:password@13.81.200.59:27017/tracking_history_admm?authSource=admin;maxIdleTimeMS=60000;connectTimeoutMS=2000;socketTimeoutMS=2000"
     },
     "trackingContactMongoDbConnectionString": {
-      "value": ""
+      "value": "mongodb://testadmin:password@13.81.200.59:27017/tracking_contact_admm?authSource=admin"
     },
     "licenseXml": {
-      "value": ""
+      "value": "license.xml"
     }
   }
 }
